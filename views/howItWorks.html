@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How It Works - Bygrow</title>
+
+
+        <!-- ATENCIÓN: La idea es ir haciendo lo mejor posible únicamente con las herramientas que tienen todos hoy en día en el curso.
+        No tiene sentido que me ponga a configurar JS si mis compañeros todavía no lo saben, no es justo. 
+        Entonces se me ocurrió hacer este desafío, también para practicar los conocimientos y aprender cosas nuevas.
+        
+        Muchas gracias!
+        
+        Atte, 
+        Emanuel Nuñez -->
+
+        
+        <!-- Fonts {No son las del prototipo pero se parecen} -->
+            <!-- Inconsolata -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+        <!-- Quicksand -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS only - Conexión a Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        
+        <!-- Archivos .css -->
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+
+
+    </head>
+    <body>
+
+        
+        <header>
+            <!-- Navbar -->
+            <nav class="nav-bar">
+
+                <div class="nav-bar__items d-flex flex-row justify-content-between">
+
+                    <ul class="nav d-flex mb-3">
+                        <li>
+                            <a href="../index.html">
+                                <img src="../assets/logo.png" class="navbar-logo" alt="Bygrow logo">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav d-flex justify-content-end mb-3">
+
+
+
+                        <!-- Elementos del navbar -->
+                        <!-- <li class="me-auto p-2">
+                            <a href="index.html">
+                                <img src="assets/logo.png" alt="Bygrow logo">
+                            </a>
+                        </li> -->
+
+
+                        <li class="li-item li-item__list"><a href="howItWorks.html">How It Works</a></li>
+                        <li class="li-item li-item__list"><a href="about.html">About</a></li>
+                        <li class="li-item li-item__list"><a href="blog.html">Blog</a></li>
+                        <li class="li-item li-item__list"><a href="contact.html">Contact</a></li>
+                        <li class="li-item li-item__list li-lang">
+
+                            <div class="lang d-flex justify-content-center align-items-center">
+                                <!-- Isoptipo del mundo -->
+                                <img src="../assets/world.png" class="lang-item mundo-idioma" alt="World">
+
+                                <!-- Este <a></a> va a tener la función de cambiar el idioma -->
+                                <a href="#" class="lang-item lang-selector">EN</a>
+
+                                <img src="../assets/flecha.png" class="lang-item flecha-idioma" alt="Language Selector">
+                            </div>
+
+                        </li>
+
+                        <!-- Por ahora voy a utilizar el icono hamburguesa unicamente
+                        para señalar que va a ir ahí pero no es funcional aún, 
+                        por eso es que se coloca en una posición incorrecta, 
+                        con JS elimino los otros <li> -->
+                            <li class="li-item li-hamburguer"><img src="../assets/menu.png" alt=""></li>
+                    </ul>
+
+                </div>
+
+            </nav>
+        </header>
+        <!--------->
+        
+
+        <!-- Sección Portada -->
+        <section class="portada">
+            
+            <div class="">
+
+                <div class="d-flex justify-content-center align-items-center">
+                    <!-- Esta era la imagen que ahora es aplicada con CSS como background -->
+                    <img src="../assets/blockchain.png" class="fondo-portada" alt="Portrait Image">
+                </div>
+
+                <div class="p-2 flex-sm-column contenido-portada">
+
+                    <h1 class="first-title">
+                        Making The World <br>
+                        Work Better For All
+                    </h1>
+                    <p class="subtitle"> 
+                        Bygrow is a blockchain platform for changemakers, innovators,
+                        and visionaries, with the tools and technologies required to create
+                        possibility for the many, as well as the few, and bring about
+                        positive global change.
+                    </p>
+
+                    <!-- Por ahora será un <a></a> pero la intención es un button con JS-->
+                    <a href="howItWorks.html" class="boton">Discover Bygrow</a>
+                    <!-- <button class="d-sm button">
+                        Discover Bygrow
+                    </button> -->
+
+                </div>
+
+            </div>
+
+        </section>  
+
+
+        <!-- Sección Resumen -->
+        <section class="informacion-how__it-works">
+
+            <div class="contenido">
+
+                <!-- Acá va la primer información -->
+                <div class="d-flex flex-row justify-content-between" style="background-color:rgb(176, 176, 176);">
+
+                    <!-- Acá va a haber otra imagen -->
+                    <div class="col-md-6">
+                        <img src="../assets/logo-imagen.png" alt="Logo Image">
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <h2 class="title">
+                            Our World Is Changing. <br>
+                            Together, We Can Change It For <br>
+                            The Better
+                        </h2>
+
+                        <p class=" subtitle">Bygrow is a proof-of-stake blockchain platform: the first to be
+                            founded on peer-reviewed research and developed through
+                            evidence-based methods. It combines pioneering technologies to
+                            provide unparalleled security and sustainability to decentralized
+                            applications, systems, and societies.
+                            With a leading team of engineers, Bygrow exists to redistribute
+                            power from unaccountable structures to the margins – to
+                            individuals – and be an enabling force for positive change and
+                            progress.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Acá va la segunda información -->
+            <div class="d-flex flex-row justify-content-between">
+
+                <div class="col-md-6">
+
+                    <h2 class="title">
+                        Our World Is Changing. <br>
+                        Together, We Can Change It For <br>
+                        The Better
+                    </h2>
+
+                    <p class=" subtitle">Bygrow is a proof-of-stake blockchain platform: the first to be
+                        founded on peer-reviewed research and developed through
+                        evidence-based methods. It combines pioneering technologies to
+                        provide unparalleled security and sustainability to decentralized
+                        applications, systems, and societies.
+                        With a leading team of engineers, Bygrow exists to redistribute
+                        power from unaccountable structures to the margins – to
+                        individuals – and be an enabling force for positive change and
+                        progress.
+                    </p>
+
+                    
+                </div>
+
+                <!-- Acá va a haber otra imagen -->
+                <div class="col-md-6">
+                    <img src="../assets/logo-imagen.png" alt="Logo Image">
+                </div>
+
+            </div>
+            
+            </div>
+
+                <!-- Acá va la tercer información -->
+                <div class="d-flex flex-row justify-content-between" style="background-color:rgb(176, 176, 176);">
+
+                    <!-- Acá va a haber otra imagen -->
+                    <div class="col-md-6">
+                        <img src="../assets/logo-imagen.png" alt="Logo Image">
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <h2 class="title">
+                            Our World Is Changing. <br>
+                            Together, We Can Change It For <br>
+                            The Better
+                        </h2>
+
+                        <p class=" subtitle">Bygrow is a proof-of-stake blockchain platform: the first to be
+                            founded on peer-reviewed research and developed through
+                            evidence-based methods. It combines pioneering technologies to
+                            provide unparalleled security and sustainability to decentralized
+                            applications, systems, and societies.
+                            With a leading team of engineers, Bygrow exists to redistribute
+                            power from unaccountable structures to the margins – to
+                            individuals – and be an enabling force for positive change and
+                            progress.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!--------->
+
+        
+
+        <!-- Sección Unirse -->
+        <section>
+
+            <div class="container text-center">
+
+                <h2 class="subtitle">Want to get involved?</h2>
+                <a href="howItWorks.html" class="btn btn-outline-primary">Learn About Bygrow Team</a>
+                <p class="subtitle">or learn about how to <a href="#">build on Bygrow</a></p>
+
+            </div>
+
+        </section>
+        <!--------->
+
+
+        <!-- Footer -->
+        <footer style="background-color:rgb(152, 152, 152);">
+
+            <div class="container">
+
+                <div class="footer-referencias d-flex d-column justify-content-evenly">
+
+                    <!-- Cada una de las columnas de referencias -->
+                    <div class="seccion-referencias col-md-2">
+
+                        <h4>General</h4>
+                        <ul>
+                            <!-- Las referencias están de ejemplo unicamente -->
+                            <li style="list-style: none;"><a href="#">About</a></li>
+                            <li style="list-style: none;"><a href="#">FAQ</a></li>
+                            <li style="list-style: none;"><a href="#">Support</a></li>
+                            <li style="list-style: none;"><a href="#">Build</a></li>
+                            <li style="list-style: none;"><a href="#">Careers</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <!-- Cada una de las columnas de referencias -->
+                    <div class="seccion-referencias col-md-2">
+
+                        <h4>General</h4>
+                        <ul>
+                            <!-- Las referencias están de ejemplo unicamente -->
+                            <li style="list-style: none;"><a href="#">About</a></li>
+                            <li style="list-style: none;"><a href="#">FAQ</a></li>
+                            <li style="list-style: none;"><a href="#">Support</a></li>
+                            <li style="list-style: none;"><a href="#">Build</a></li>
+                            <li style="list-style: none;"><a href="#">Careers</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <!-- Cada una de las columnas de referencias -->
+                    <div class="seccion-referencias col-md-2">
+
+                        <h4>Technology</h4>
+                        <ul>
+                            <!-- Las referencias están de ejemplo unicamente -->
+                            <li style="list-style: none;"><a href="#">Technology</a></li>
+                            <li style="list-style: none;"><a href="#">Roadmap</a></li>
+                            <li style="list-style: none;"><a href="#">Token</a></li>
+                            <li style="list-style: none;"><a href="#">Telemetry</a></li>
+                            <li style="list-style: none;"><a href="#">Lightpaper</a></li>
+                            <li style="list-style: none;"><a href="#">Whitepaper</a></li>
+                        </ul>
+                        
+                    </div>
+
+                    <!-- Cada una de las columnas de referencias -->
+                    <div class="seccion-referencias col-md-2">
+
+                        <h4>Community</h4>
+                        <ul>
+                            <!-- Las referencias están de ejemplo unicamente -->
+                            <li style="list-style: none;"><a href="#">Community</a></li>
+                            <li style="list-style: none;"><a href="#">Documentation</a></li>
+                            <li style="list-style: none;"><a href="#">Brand Assets</a></li>
+                            <li style="list-style: none;"><a href="#">Blog</a></li>
+                        </ul>
+                        
+                    </div>
+
+                </div>
+
+                <!-- Bases y condiciones de la empresa -->
+                <div class="d-flex justify-content-left align-items-end">
+
+                    <!-- Referencia a página principal -->
+                    <a href="index.html"> <img src="../assets/logo.png" alt="Bygrow logo"> </a>
+                    
+                    <!-- Referencias a información de la empresa -->
+                    <a href="#">Web3 Fundation</a>
+                    <!-- División provisoria -->
+                    |
+                    <a href="#">Impressum</a>
+                    <!-- División provisoria -->
+                    |
+                    <a href="#">Disclaimer</a>
+                    <!-- División provisoria -->
+                    |
+                    <a href="#">Privacy</a>
+                    <!-- División provisoria -->
+                    |
+                    <a href="#">Cookie Settings</a>
+
+                </div>
+
+            </div>
+
+        </footer>
+        <!--------->
+    </body>
+</html>
