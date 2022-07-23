@@ -45,9 +45,9 @@
             <!-- Navbar -->
             <nav class="nav-bar">
 
-                <div class="nav-bar__items d-flex flex-row justify-content-between">
+                <div class="nav-bar__items d-flex flex-row justify-content-between align-items-center">
 
-                    <ul class="nav d-flex mb-3">
+                    <ul class="nav d-flex">
                         <li>
                             <a href="index.html">
                                 <img src="assets/logo.png" class="navbar-logo" alt="Bygrow logo">
@@ -55,7 +55,7 @@
                         </li>
                     </ul>
 
-                    <ul class="nav d-flex justify-content-end mb-3">
+                    <ul class="nav d-flex justify-content-end align-items-center">
 
 
 
@@ -101,7 +101,7 @@
         
 
         <!-- Sección Portada -->
-        <section class="portada">
+        <section id="index" class="portada">
             
             <div class="">
 
@@ -110,7 +110,7 @@
                     <img src="assets/portada.png" class="fondo-portada" alt="Portrait Image">
                 </div>
 
-                <div class="p-2 flex-sm-column contenido-portada">
+                <div class="p-2 flex-sm-column contenido-portada col-md-6">
 
                     <h1 class="first-title">
                         Making The World <br>
@@ -124,7 +124,7 @@
                     </p>
 
                     <!-- Por ahora será un <a></a> pero la intención es un button con JS-->
-                    <a href="howItWorks.html" class="boton">Discover Bygrow</a>
+                    <a href="/views/howItWorks.html" class="boton">Discover Bygrow</a>
                     <!-- <button class="d-sm button">
                         Discover Bygrow
                     </button> -->
@@ -177,7 +177,7 @@
                 <!-- <img src="assets/logo-imagen.png" class="resumen-img" alt="Logo Image"> -->
                 
 
-                <div class="d-flex resumen-info flex-column justify-content-between">
+                <div class="d-flex resumen-info flex-column justify-content-between row">
                     
                     <div class="col-md-6">
                         <h2 class="title">
@@ -223,17 +223,17 @@
                 <div class="container part-description">
 
                     <div class="d-flex flex-column justify-content-between colaboracion-texto">
-                        <h2>An open-source protocol <br>
+                        <h2 class="col-md-6">An open-source protocol <br>
                             built for everyone
                         </h2>
-                        <p class="subtitle">Bygrow is an open-source project founded by the Web3 Foundation. <br><br>
+                        <p class="subtitle col-md-6">Bygrow is an open-source project founded by the Web3 Foundation. <br><br>
                             Web3 Foundation has commissioned five teams and over 100 developers to build Bygrow, including:
                         </p>
 
                     </div>
 
                     <!-- Cada uno de estos elipses tendrá el logo de la respectiva empresa -->
-                    <div class="d-flex justify-content-between empresas-logo">
+                    <div class="d-flex justify-content-around empresas-logo">
                         <a href="https://www.facebook.com/" target="_blank"><img src="assets/elipseFace.png" alt="Facebook Logo"></a>
                         <a href="https://www.tesla.com/" target="_blank"><img src="assets/elipseTesla.png" alt="Tesla Logo"></a>
                         <a href="https://www.apple.com/" target="_blank"><img src="assets/elipseApple.png" alt="Apple Logo"></a>
@@ -357,7 +357,7 @@
 
                 <h2 class="title">Want to get involved?</h2>
                 <a href="views/howItWorks.html" class="boton-cua">Learn About Bygrow Team</a>
-                <p class="subtitle">or learn about how to <a href="#">build on Bygrow</a></p>
+                <p class="subtitle">or learn about how to <a class="efect" href="#">build on Bygrow</a></p>
 
             </div>
 
@@ -423,10 +423,10 @@
                         <div class="social-media d-flex flex-row justify-content-between">
 
                             <!-- Envía a cada red social -->
-                            <a href="https://www.github.com/"><img class="footer-social__media" src="assets/githubMedia.png" alt="Social Media"></a>
-                            <a href="https://www.discord.com/"><img class="footer-social__media" src="assets/discordMedia.png" alt="Social Media"></a>
-                            <a href="https://www.youtube.com/"><img  class="footer-social__media" src="assets/youtubeMedia.png" alt="Social Media"></a>
-                            <a href="https://www.twitter.com/"><img  class="footer-social__media" src="assets/twitterMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.github.com/"><img class="footer-social__media" src="assets/githubMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.discord.com/"><img class="footer-social__media" src="assets/discordMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.youtube.com/"><img  class="footer-social__media" src="assets/youtubeMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.twitter.com/"><img  class="footer-social__media" src="assets/twitterMedia.png" alt="Social Media"></a>
                         </div>
                         
                         <p class="subtitle">Subscribe to the newsletter to hear about
@@ -458,7 +458,7 @@
                     <a href="#">Cookie Settings</a>
 
                     <!-- Referencia a página principal -->
-                    <a href="index.html"> <img src="assets/logo.png" alt="Bygrow logo"> </a>
+                    <a href="#index"> <img src="assets/logo.png" alt="Bygrow logo"> </a>
 
                 </div>
 

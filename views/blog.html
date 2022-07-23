@@ -40,22 +40,22 @@
         
 
         
+        <!-- Navbar -->
         <header>
+            
+            <nav class="nav-bar nav-bar__about">
 
-            <!-- Navbar -->
-            <nav class="nav-bar">
+                <div class="nav-bar__items d-flex flex-row justify-content-between align-items-center">
 
-                <div class="nav-bar__items d-flex flex-row justify-content-between">
-
-                    <ul class="nav d-flex mb-3">
+                    <ul class="nav d-flex">
                         <li>
                             <a href="../index.html">
-                                <img src="../assets/logo.png" class="navbar-logo" alt="Bygrow logo">
+                                <img src="../assets/logo-azul.png" class="navbar-logo" alt="Bygrow logo">
                             </a>
                         </li>
                     </ul>
 
-                    <ul class="nav d-flex justify-content-end mb-3">
+                    <ul class="nav d-flex justify-content-end align-items-center">
 
 
 
@@ -75,12 +75,12 @@
 
                             <div class="lang d-flex justify-content-center align-items-center">
                                 <!-- Isoptipo del mundo -->
-                                <img src="../assets/world.png" class="lang-item mundo-idioma" alt="World">
+                                <img src="../assets/worldBlue.png" class="lang-item mundo-idioma" alt="World">
 
                                 <!-- Este <a></a> va a tener la función de cambiar el idioma -->
                                 <a href="#" class="lang-item lang-selector">EN</a>
 
-                                <img src="../assets/flecha.png" class="lang-item flecha-idioma" alt="Language Selector">
+                                <img src="../assets/flechaBlue.png" class="lang-item flecha-idioma" alt="Language Selector">
                             </div>
 
                         </li>
@@ -89,7 +89,7 @@
                         para señalar que va a ir ahí pero no es funcional aún, 
                         por eso es que se coloca en una posición incorrecta, 
                         con JS elimino los otros <li> -->
-                            <li class="li-item li-hamburguer"><img src="../assets/menu.png" alt=""></li>
+                            <li class="li-item li-hamburguer"><img src="../assets/menuBlue.png" alt=""></li>
                     </ul>
 
                 </div>
@@ -101,7 +101,7 @@
 
 
         <!-- Sección Portada -->
-        <section class="portada-about" style="background-color: #fff;">
+        <section class="portada-about" id="blog">
             
             <div class="container">
 
@@ -124,15 +124,11 @@
 
             <div class="container">
 
-                <h2 class="subtitle text-center">
-                    Bygrow Blog
-                </h2>
-
                 <!-- Le coloco estilo para que no quede impresentable ahora unicamente -->
-                <div class="container blog-cards d-flex justify-content-evenly">
+                <div class="container blog-cards row contenido-cards">
 
                     <!-- Con un addEventListener() lleva al blog -->
-                    <div class="card info-cards" style="width: 18rem;">
+                    <div class="card info-cards col-md-4">
 
                         <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
 
@@ -148,13 +144,16 @@
                                 incorrect lock/unlock or burn/mint
                                 on both chains...
                             </p>
-                            <img src="../assets/logo-azul.png" width="150" alt="Bygrow logo">
+                            <a href="index.html">
+                                <!-- Le coloco un width, proximamente con CSS -->
+                                <img src="../assets/logo-azul.png" alt="Bygrow logo">
+                            </a>
                         </div>
 
                     </div>
 
                     <!-- Con un addEventListener() lleva al blog -->
-                    <div class="card info-cards" style="width: 18rem;">
+                    <div class="card info-cards col-md-4">
 
                         <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
 
@@ -170,13 +169,16 @@
                                 incorrect lock/unlock or burn/mint
                                 on both chains...
                             </p>
-                            <img src="../assets/logo-azul.png" width="150" alt="Bygrow logo">
+                            <a href="index.html">
+                                <!-- Le coloco un width, proximamente con CSS -->
+                                <img src="../assets/logo-azul.png" alt="Bygrow logo">
+                            </a>
                         </div>
 
                     </div>
 
                     <!-- Con un addEventListener() lleva al blog -->
-                    <div class="card info-cards" style="width: 18rem;">
+                    <div class="card info-cards col-md-4">
 
                         <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
 
@@ -192,46 +194,16 @@
                                 incorrect lock/unlock or burn/mint
                                 on both chains...
                             </p>
-                            <!-- Le coloco un width, proximamente con CSS -->
-                            <img src="../assets/logo-azul.png" width="150" alt="Bygrow logo">
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="container">
-
-                <!-- Le coloco estilo para que no quede impresentable ahora unicamente -->
-                <div class="container blog-cards d-flex justify-content-evenly">
-
-                    <!-- Con un addEventListener() lleva al blog -->
-                    <div class="card info-cards" style="width: 18rem;">
-
-                        <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
-
-                        <!-- Contenido de la tarjeta -->
-                        <div class="card-body">
-                            <a href="blog.html" class="card-link">Bygrow</a>
-                            <h3 class="card-title">XCMv2 Audit Completed by Quarkslab</h3>
-                            <p class="subtitle">XCMv2 has now been audited for a
-                                second time to discover any
-                                potential cross-chain security or
-                                fairness issues, including logical
-                                bugs, denial-of-service, and
-                                incorrect lock/unlock or burn/mint
-                                on both chains...
-                            </p>
-                            <img src="../assets/logo-azul.png" width="150" alt="Bygrow logo">
+                            <a href="index.html">
+                                <!-- Le coloco un width, proximamente con CSS -->
+                                <img src="../assets/logo-azul.png" alt="Bygrow logo">
+                            </a>
                         </div>
 
                     </div>
 
                     <!-- Con un addEventListener() lleva al blog -->
-                    <div class="card info-cards" style="width: 18rem;">
+                    <div class="card info-cards col-md-4">
 
                         <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
 
@@ -247,13 +219,16 @@
                                 incorrect lock/unlock or burn/mint
                                 on both chains...
                             </p>
-                            <img src="../assets/logo-azul.png" width="150" alt="Bygrow logo">
+                            <a href="index.html">
+                                <!-- Le coloco un width, proximamente con CSS -->
+                                <img src="../assets/logo-azul.png" alt="Bygrow logo">
+                            </a>
                         </div>
 
                     </div>
 
                     <!-- Con un addEventListener() lleva al blog -->
-                    <div class="card info-cards" style="width: 18rem;">
+                    <div class="card info-cards col-md-4">
 
                         <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
 
@@ -269,46 +244,16 @@
                                 incorrect lock/unlock or burn/mint
                                 on both chains...
                             </p>
-                            <!-- Le coloco un width, proximamente con CSS -->
-                            <img src="../assets/logo-azul.png" width="150" alt="Bygrow logo">
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="container">
-
-                <!-- Le coloco estilo para que no quede impresentable ahora unicamente -->
-                <div class="container blog-cards d-flex justify-content-evenly">
-
-                    <!-- Con un addEventListener() lleva al blog -->
-                    <div class="card info-cards" style="width: 18rem;">
-
-                        <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
-
-                        <!-- Contenido de la tarjeta -->
-                        <div class="card-body">
-                            <a href="blog.html" class="card-link">Bygrow</a>
-                            <h3 class="card-title">XCMv2 Audit Completed by Quarkslab</h3>
-                            <p class="subtitle">XCMv2 has now been audited for a
-                                second time to discover any
-                                potential cross-chain security or
-                                fairness issues, including logical
-                                bugs, denial-of-service, and
-                                incorrect lock/unlock or burn/mint
-                                on both chains...
-                            </p>
-                            <img src="../assets/logo-azul.png" width="150" alt="Bygrow logo">
+                            <a href="index.html">
+                                <!-- Le coloco un width, proximamente con CSS -->
+                                <img src="../assets/logo-azul.png" alt="Bygrow logo">
+                            </a>
                         </div>
 
                     </div>
 
                     <!-- Con un addEventListener() lleva al blog -->
-                    <div class="card info-cards" style="width: 18rem;">
+                    <div class="card info-cards col-md-4">
 
                         <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
 
@@ -324,13 +269,16 @@
                                 incorrect lock/unlock or burn/mint
                                 on both chains...
                             </p>
-                            <img src="../assets/logo-azul.png" width="150" alt="Bygrow logo">
+                            <a href="index.html">
+                                <!-- Le coloco un width, proximamente con CSS -->
+                                <img src="../assets/logo-azul.png" alt="Bygrow logo">
+                            </a>
                         </div>
 
                     </div>
 
                     <!-- Con un addEventListener() lleva al blog -->
-                    <div class="card info-cards" style="width: 18rem;">
+                    <div class="card info-cards col-md-4">
 
                         <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
 
@@ -346,10 +294,80 @@
                                 incorrect lock/unlock or burn/mint
                                 on both chains...
                             </p>
-                            <!-- Le coloco un width, proximamente con CSS -->
-                            <img src="../assets/logo-azul.png" width="150" alt="Bygrow logo">
+                            <a href="index.html">
+                                <!-- Le coloco un width, proximamente con CSS -->
+                                <img src="../assets/logo-azul.png" alt="Bygrow logo">
+                            </a>
                         </div>
 
+                    </div>
+
+                    <!-- Con un addEventListener() lleva al blog -->
+                    <div class="card info-cards col-md-4">
+
+                        <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
+
+                        <!-- Contenido de la tarjeta -->
+                        <div class="card-body">
+                            <a href="blog.html" class="card-link">Bygrow</a>
+                            <h3 class="card-title">XCMv2 Audit Completed by Quarkslab</h3>
+                            <p class="subtitle">XCMv2 has now been audited for a
+                                second time to discover any
+                                potential cross-chain security or
+                                fairness issues, including logical
+                                bugs, denial-of-service, and
+                                incorrect lock/unlock or burn/mint
+                                on both chains...
+                            </p>
+                            <a href="index.html">
+                                <!-- Le coloco un width, proximamente con CSS -->
+                                <img src="../assets/logo-azul.png" alt="Bygrow logo">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- Con un addEventListener() lleva al blog -->
+                    <div class="card info-cards col-md-4">
+
+                        <img class="card-img-top" src="../assets/card-image.jpg" alt="Blog Resume">
+
+                        <!-- Contenido de la tarjeta -->
+                        <div class="card-body">
+                            <a href="blog.html" class="card-link">Bygrow</a>
+                            <h3 class="card-title">XCMv2 Audit Completed by Quarkslab</h3>
+                            <p class="subtitle">XCMv2 has now been audited for a
+                                second time to discover any
+                                potential cross-chain security or
+                                fairness issues, including logical
+                                bugs, denial-of-service, and
+                                incorrect lock/unlock or burn/mint
+                                on both chains...
+                            </p>
+                            <a href="index.html">
+                                <!-- Le coloco un width, proximamente con CSS -->
+                                <img src="../assets/logo-azul.png" alt="Bygrow logo">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="page-selector d-flex align-items-center justify-content-center">
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                              <li class="page-item disabled">
+                                <a class="page-link">Previous</a>
+                              </li>
+                              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item" aria-current="page">
+                                <a class="page-link" href="#">2</a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                              </li>
+                            </ul>
+                          </nav>
                     </div>
 
                 </div>
@@ -362,12 +380,12 @@
 
 
         <!-- Sección Unirse -->
-        <section class="unirse" style="background-color: rgb(144, 144, 144);">
+        <section class="unirse">
 
             <div class="container text-center">
 
-                <h2 class="subtitle">Want to get involved?</h2>
-                <a href="howItWorks.html" class="btn btn-outline-primary">Learn About Bygrow Team</a>
+                <h2 class="title">Want to get involved?</h2>
+                <a href="howItWorks.html" class="boton-cua">Learn About Bygrow Team</a>
                 <p class="subtitle">or learn about how to <a href="#">build on Bygrow</a></p>
 
             </div>
@@ -375,12 +393,13 @@
         </section>
         <!--------->
 
+
         <!-- Footer -->
-        <footer style="background-color:rgb(152, 152, 152);">
+        <footer class="footer">
 
             <div class="container">
 
-                <div class="footer-referencias d-flex d-column justify-content-evenly">
+                <div class="footer-referencias d-flex flex-column align-items-center">
 
                     <!-- Cada una de las columnas de referencias -->
                     <div class="seccion-referencias col-md-2">
@@ -421,40 +440,37 @@
                             <!-- Las referencias están de ejemplo unicamente -->
                             <li style="list-style: none;"><a href="#">Community</a></li>
                             <li style="list-style: none;"><a href="#">Documentation</a></li>
-                            <li style="list-style: none;"><a href="#">Brand ../assets</a></li>
+                            <li style="list-style: none;"><a href="#">Brand Assets</a></li>
                             <li style="list-style: none;"><a href="#">Blog</a></li>
                         </ul>
                         
                     </div>
 
                     <!-- Cada una de las columnas de referencias -->
-                    <div class="seccion-referencias col-md-2">
+                    <div class="seccion-referencias seccion-referencias__media col-md-2 d-flex flex-column align-items-center">
                         
                         <!-- Enlaces a redes sociales -->
-                        <div class="social-media d-flex justify-content-between">
+                        <div class="social-media d-flex flex-row justify-content-between">
 
                             <!-- Envía a cada red social -->
-                            <a href="#"><img src="../assets/elipse-2.png" width="40" alt="Social Media"></a>
-                            <a href="#"><img src="../assets/elipse-2.png" width="40" alt="Social Media"></a>
-                            <a href="#"><img src="../assets/elipse-2.png" width="40" alt="Social Media"></a>
-                            <a href="#"><img src="../assets/elipse-2.png" width="40" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.github.com/"><img class="footer-social__media" src="../assets/githubMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.discord.com/"><img class="footer-social__media" src="../assets/discordMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.youtube.com/"><img  class="footer-social__media" src="../assets/youtubeMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.twitter.com/"><img  class="footer-social__media" src="../assets/twitterMedia.png" alt="Social Media"></a>
                         </div>
                         
-                        <p class="subtitle">Subscribe to the newsletter to hear about <br>
+                        <p class="subtitle">Subscribe to the newsletter to hear about
                             Bygrow updates and events.
                         </p>
 
-                        <a href="howItWorks.html" class="btn btn-outline-primary">Subscribe</a>
+                        <a href="howItWorks.html" class="boton-cin">Subscribe</a>
 
                     </div>
 
                 </div>
 
                 <!-- Bases y condiciones de la empresa -->
-                <div class="d-flex justify-content-left align-items-end">
-
-                    <!-- Referencia a página principal -->
-                    <a href="index.html"> <img src="../assets/logo.png" alt="Bygrow logo"> </a>
+                <div class="d-flex flex-column justify-content-center align-items-center footer-bases">
                     
                     <!-- Referencias a información de la empresa -->
                     <a href="#">Web3 Fundation</a>
@@ -471,6 +487,9 @@
                     |
                     <a href="#">Cookie Settings</a>
 
+                    <!-- Referencia a página principal -->
+                    <a href="index.html"> <img src="../assets/logo.png" alt="Bygrow logo"> </a>
+
                 </div>
 
             </div>
@@ -479,4 +498,5 @@
         <!--------->
 
     </body>
+    
 </html>

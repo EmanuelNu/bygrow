@@ -44,9 +44,9 @@
             <!-- Navbar -->
             <nav class="nav-bar">
 
-                <div class="nav-bar__items d-flex flex-row justify-content-between">
+                <div class="nav-bar__items d-flex flex-row justify-content-between align-items-center">
 
-                    <ul class="nav d-flex mb-3">
+                    <ul class="nav d-flex">
                         <li>
                             <a href="../index.html">
                                 <img src="../assets/logo.png" class="navbar-logo" alt="Bygrow logo">
@@ -54,7 +54,7 @@
                         </li>
                     </ul>
 
-                    <ul class="nav d-flex justify-content-end mb-3">
+                    <ul class="nav d-flex justify-content-end align-items-center">
 
 
 
@@ -99,7 +99,7 @@
         
 
         <!-- Sección Portada -->
-        <section class="portada">
+        <section class="portada-how">
             
             <div class="">
 
@@ -111,21 +111,11 @@
                 <div class="p-2 flex-sm-column contenido-portada">
 
                     <h1 class="first-title">
-                        Making The World <br>
-                        Work Better For All
+                        How it works Bygrow
                     </h1>
-                    <p class="subtitle"> 
-                        Bygrow is a blockchain platform for changemakers, innovators,
-                        and visionaries, with the tools and technologies required to create
-                        possibility for the many, as well as the few, and bring about
-                        positive global change.
+                    <p class="subtitle-how"> 
+                        Bygrow is the nexus of five principles: People, purpose, technology, research, and opportunity. Explore and learn this new constellation of knowledge.
                     </p>
-
-                    <!-- Por ahora será un <a></a> pero la intención es un button con JS-->
-                    <a href="howItWorks.html" class="boton">Discover Bygrow</a>
-                    <!-- <button class="d-sm button">
-                        Discover Bygrow
-                    </button> -->
 
                 </div>
 
@@ -139,101 +129,123 @@
 
             <div class="contenido">
 
-                <!-- Acá va la primer información -->
-                <div class="d-flex flex-row justify-content-between" style="background-color:rgb(176, 176, 176);">
+                <div class="selector-pag d-flex align-items-center flex-row">
+                    <p class="selector-title">Discover</p>
+                    <a href="#people" class="selector-index">People</a>
+                    <a href="#purpose" class="selector-index">Purpose</a>
+                    <a href="#technology" class="selector-index">Technology</a>
+                </div>
 
-                    <!-- Acá va a haber otra imagen -->
-                    <div class="col-md-6">
-                        <img src="../assets/logo-imagen.png" alt="Logo Image">
+                <!-- Acá va la primer información -->
+                <div id="people" class="how-people row">
+
+                    <div class="d-flex justify-content-center align-items-start col-md-6">
+                        <img class="how-image" src="../assets/cloud.png" alt="Logo Image">
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="d-flex flex-row justify-content-between align-items-center col-md-6">
 
-                        <h2 class="title">
-                            Our World Is Changing. <br>
-                            Together, We Can Change It For <br>
-                            The Better
-                        </h2>
-
-                        <p class=" subtitle">Bygrow is a proof-of-stake blockchain platform: the first to be
-                            founded on peer-reviewed research and developed through
-                            evidence-based methods. It combines pioneering technologies to
-                            provide unparalleled security and sustainability to decentralized
-                            applications, systems, and societies.
-                            With a leading team of engineers, Bygrow exists to redistribute
-                            power from unaccountable structures to the margins – to
-                            individuals – and be an enabling force for positive change and
-                            progress.
-                        </p>
-
+                        <div class="container">
+    
+                            <h2 class="title">
+                                People
+                            </h2>
+    
+                            <p class="subtitle">
+                                <span>Working together, we achieve more for the many.</span><br><br>
+    
+                                Bygrow is built by a decentralized community of scientists, 
+                                engineers, and thought leaders united in a common purpose: to 
+                                create a technology platform that will ignite the positive change 
+                                the world needs. We believe the future should not be defined by 
+                                the past, and that more is possible - and, through technology, can 
+                                be made possible for all. We measure the worth of a task not by its 
+                                challenge, but by its results. <br><br>
+                                
+                                Every Byw holder also holds a stake in the Bygrow network. Byw 
+                                stored in a wallet can be delegated to a stake pool to earn rewards 
+                                – to participate in the successful running of the network – or 
+                                pledged to a stake pool to increase the pool’s likelihood of 
+                                receiving rewards. In time, ada will also be usable for a variety of 
+                                applications and services on the Cardano platform.
+                                
+                                
+                            </p>
+    
+                        </div>
                     </div>
                 </div>
+                
 
             </div>
 
             <!-- Acá va la segunda información -->
-            <div class="d-flex flex-row justify-content-between">
+            <div id="purpose" class="how-purpose row">
 
-                <div class="col-md-6">
+                <div class="d-flex align-items-center col-md-6">
 
-                    <h2 class="title">
-                        Our World Is Changing. <br>
-                        Together, We Can Change It For <br>
-                        The Better
-                    </h2>
+                    <div class="how-purpose-text">
 
-                    <p class=" subtitle">Bygrow is a proof-of-stake blockchain platform: the first to be
-                        founded on peer-reviewed research and developed through
-                        evidence-based methods. It combines pioneering technologies to
-                        provide unparalleled security and sustainability to decentralized
-                        applications, systems, and societies.
-                        With a leading team of engineers, Bygrow exists to redistribute
-                        power from unaccountable structures to the margins – to
-                        individuals – and be an enabling force for positive change and
-                        progress.
-                    </p>
+                        <h2 class="title">
+                            Purpose
+                        </h2>
+
+                        <p class="subtitle">A platform built for a sustainable future, to help people work better together, trust one another, and build global solutions to global problems <br><br>
+
+                            Bygrow is a fork in the road. It takes us from where we’ve been to where we’re destined to go: a global society that is secure, transparent, and fair, and which serves the many as well as the few. Like the technological revolutions that have come before, it offers a new template for how we work, interact, and create, as individuals, businesses, and societies. <br><br>
+                            
+                            Bygrow began with a vision of a world without intermediaries, in which power is not controlled by an accountable few, but by the empowered many. In this world, individuals have control over their data and how they interact and transact. Businesses have the opportunity to grow independent of monopolistic and bureaucratic power structures. Societies are able to pursue true democracy: self-governing, fair, and accountable. It is a world made possible by Bygrow. <br><br>
+                            
+                            
+                        </p>
+
+                        
+                    </div>
+
+                </div>
+
+                <div class="d-flex justify-content-center align-items-start col-md-6">
+                    <img class="how-image" src="../assets/purpose.png" alt="Logo Image">
+                </div>
+
+            </div>
+
+            
+            
+            </div>
+
+                <!-- Acá va la segunda información -->
+            <div id="technology" class="how-technology row">
+                
+                <div class="d-flex justify-content-center align-items-start col-md-6">
+                    <img class="how-image" src="../assets/purpose.png" alt="Logo Image">
+                </div>
+
+                <div class="d-flex container align-items-center col-md-6">
+
+                    <div>
+
+                        <h2 class="title">
+                            Technology
+                        </h2>
+
+                        <p class="subtitle">A platform built for a sustainable future, to help people work better together, trust one another, and build global solutions to global problems <br><br>
+
+                            Bygrow is a fork in the road. It takes us from where we’ve been to where we’re destined to go: a global society that is secure, transparent, and fair, and which serves the many as well as the few. Like the technological revolutions that have come before, it offers a new template for how we work, interact, and create, as individuals, businesses, and societies. <br><br>
+                            
+                            Bygrow began with a vision of a world without intermediaries, in which power is not controlled by an accountable few, but by the empowered many. In this world, individuals have control over their data and how they interact and transact. Businesses have the opportunity to grow independent of monopolistic and bureaucratic power structures. Societies are able to pursue true democracy: self-governing, fair, and accountable. It is a world made possible by Bygrow. <br><br>
+                            
+                            
+                        </p>
+                        
+                        <a href="views/howItWorks.html" class="boton-sec">How It Works</a>
+
+                    </div>
 
                     
                 </div>
 
-                <!-- Acá va a haber otra imagen -->
-                <div class="col-md-6">
-                    <img src="../assets/logo-imagen.png" alt="Logo Image">
-                </div>
-
             </div>
-            
-            </div>
-
-                <!-- Acá va la tercer información -->
-                <div class="d-flex flex-row justify-content-between" style="background-color:rgb(176, 176, 176);">
-
-                    <!-- Acá va a haber otra imagen -->
-                    <div class="col-md-6">
-                        <img src="../assets/logo-imagen.png" alt="Logo Image">
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <h2 class="title">
-                            Our World Is Changing. <br>
-                            Together, We Can Change It For <br>
-                            The Better
-                        </h2>
-
-                        <p class=" subtitle">Bygrow is a proof-of-stake blockchain platform: the first to be
-                            founded on peer-reviewed research and developed through
-                            evidence-based methods. It combines pioneering technologies to
-                            provide unparalleled security and sustainability to decentralized
-                            applications, systems, and societies.
-                            With a leading team of engineers, Bygrow exists to redistribute
-                            power from unaccountable structures to the margins – to
-                            individuals – and be an enabling force for positive change and
-                            progress.
-                        </p>
-
-                    </div>
-                </div>
 
             </div>
 
@@ -243,12 +255,12 @@
         
 
         <!-- Sección Unirse -->
-        <section>
+        <section class="unirse">
 
             <div class="container text-center">
 
-                <h2 class="subtitle">Want to get involved?</h2>
-                <a href="howItWorks.html" class="btn btn-outline-primary">Learn About Bygrow Team</a>
+                <h2 class="title">Want to get involved?</h2>
+                <a href="howItWorks.html" class="boton-cua">Learn About Bygrow Team</a>
                 <p class="subtitle">or learn about how to <a href="#">build on Bygrow</a></p>
 
             </div>
@@ -258,26 +270,11 @@
 
 
         <!-- Footer -->
-        <footer style="background-color:rgb(152, 152, 152);">
+        <footer class="footer">
 
             <div class="container">
 
-                <div class="footer-referencias d-flex d-column justify-content-evenly">
-
-                    <!-- Cada una de las columnas de referencias -->
-                    <div class="seccion-referencias col-md-2">
-
-                        <h4>General</h4>
-                        <ul>
-                            <!-- Las referencias están de ejemplo unicamente -->
-                            <li style="list-style: none;"><a href="#">About</a></li>
-                            <li style="list-style: none;"><a href="#">FAQ</a></li>
-                            <li style="list-style: none;"><a href="#">Support</a></li>
-                            <li style="list-style: none;"><a href="#">Build</a></li>
-                            <li style="list-style: none;"><a href="#">Careers</a></li>
-                        </ul>
-                        
-                    </div>
+                <div class="footer-referencias d-flex flex-column align-items-center">
 
                     <!-- Cada una de las columnas de referencias -->
                     <div class="seccion-referencias col-md-2">
@@ -324,13 +321,31 @@
                         
                     </div>
 
+                    <!-- Cada una de las columnas de referencias -->
+                    <div class="seccion-referencias seccion-referencias__media col-md-2 d-flex flex-column align-items-center">
+                        
+                        <!-- Enlaces a redes sociales -->
+                        <div class="social-media d-flex flex-row justify-content-between">
+
+                            <!-- Envía a cada red social -->
+                            <a target="_blank" href="https://www.github.com/"><img class="footer-social__media" src="../assets/githubMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.discord.com/"><img class="footer-social__media" src="../assets/discordMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.youtube.com/"><img  class="footer-social__media" src="../assets/youtubeMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.twitter.com/"><img  class="footer-social__media" src="../assets/twitterMedia.png" alt="Social Media"></a>
+                        </div>
+                        
+                        <p class="subtitle">Subscribe to the newsletter to hear about
+                            Bygrow updates and events.
+                        </p>
+
+                        <a href="contact.html" class="boton-cin">Subscribe</a>
+
+                    </div>
+
                 </div>
 
                 <!-- Bases y condiciones de la empresa -->
-                <div class="d-flex justify-content-left align-items-end">
-
-                    <!-- Referencia a página principal -->
-                    <a href="index.html"> <img src="../assets/logo.png" alt="Bygrow logo"> </a>
+                <div class="d-flex flex-column justify-content-center align-items-center footer-bases">
                     
                     <!-- Referencias a información de la empresa -->
                     <a href="#">Web3 Fundation</a>
@@ -347,11 +362,16 @@
                     |
                     <a href="#">Cookie Settings</a>
 
+                    <!-- Referencia a página principal -->
+                    <a href="../index.html"> <img src="../assets/logo.png" alt="Bygrow logo"> </a>
+
                 </div>
 
             </div>
 
         </footer>
         <!--------->
+
     </body>
+
 </html>

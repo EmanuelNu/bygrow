@@ -40,29 +40,29 @@
         
 
         
+        <!-- Navbar -->
         <header>
+            
+            <nav class="nav-bar nav-bar__about">
 
-            <!-- Navbar -->
-            <nav class="nav-bar">
+                <div class="nav-bar__items d-flex flex-row justify-content-between align-items-center">
 
-                <div class="nav-bar__items d-flex flex-row justify-content-between">
-
-                    <ul class="nav d-flex mb-3">
+                    <ul class="nav d-flex">
                         <li>
                             <a href="../index.html">
-                                <img src="../assets/logo.png" class="navbar-logo" alt="Bygrow logo">
+                                <img src="../assets/logo-azul.png" class="navbar-logo" alt="Bygrow logo">
                             </a>
                         </li>
                     </ul>
 
-                    <ul class="nav d-flex justify-content-end mb-3">
+                    <ul class="nav d-flex justify-content-end align-items-center">
 
 
 
                         <!-- Elementos del navbar -->
                         <!-- <li class="me-auto p-2">
                             <a href="index.html">
-                                <img src="../assets/logo.png" alt="Bygrow logo">
+                                <img src="assets/logo.png" alt="Bygrow logo">
                             </a>
                         </li> -->
 
@@ -75,12 +75,12 @@
 
                             <div class="lang d-flex justify-content-center align-items-center">
                                 <!-- Isoptipo del mundo -->
-                                <img src="../assets/world.png" class="lang-item mundo-idioma" alt="World">
+                                <img src="../assets/worldBlue.png" class="lang-item mundo-idioma" alt="World">
 
                                 <!-- Este <a></a> va a tener la función de cambiar el idioma -->
                                 <a href="#" class="lang-item lang-selector">EN</a>
 
-                                <img src="../assets/flecha.png" class="lang-item flecha-idioma" alt="Language Selector">
+                                <img src="../assets/flechaBlue.png" class="lang-item flecha-idioma" alt="Language Selector">
                             </div>
 
                         </li>
@@ -89,7 +89,7 @@
                         para señalar que va a ir ahí pero no es funcional aún, 
                         por eso es que se coloca en una posición incorrecta, 
                         con JS elimino los otros <li> -->
-                            <li class="li-item li-hamburguer"><img src="../assets/menu.png" alt=""></li>
+                            <li class="li-item li-hamburguer"><img src="../assets/menuBlue.png" alt=""></li>
                     </ul>
 
                 </div>
@@ -101,14 +101,14 @@
 
         
         <!-- Sección Portada -->
-        <section class="portada-about" style="background-color: #fff;">
+        <section class="portada-about">
             
             <div class="container">
 
                 <div class="text-center">
 
                     <h1 class="first-title">
-                        Contact Us
+                        Contact with Bygrow
                     </h1>
 
                 </div>
@@ -120,51 +120,63 @@
 
 
         <!-- Sección Medios de Contacto -->
-        <section class="resumen" style="background-color: rgb(187, 187, 187);">
+        <section class="contacto-redes">
 
             <div class="container contenido-contacto">
 
-                    <div class="d-flex justify-content-center flex-row">
+                    <div class="row container row-contacto">
 
-                        <div class="col-md-6">
-                            <div class="d-flex flex-row">
-                                <img src="../assets/elipse.png" alt="First Social Media">
-                                <div class="f-flex flex-column">
-                                    <h2>Social Media Name</h2>
-                                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, tenetur!</p>
+                        <div class="col-md-4 content-redes">
+                            <div class="row box-redes">
+
+                                <div class="col-md-2 col-2 img-contacto">
+                                    <img src="../assets/youtubeBlue.png" alt="First Social Media">
                                 </div>
+
+                                <div class="f-flex flex-column col-md-10 col-10 texto-contacto">
+                                    <h4>For Youtube's News</h2>
+                                    <p class="subtitle">Join the <a target="_blank" href="https://youtube.com">YouTube community</a></p>
+                                </div>
+
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="d-flex flex-row">
-                                <img src="../assets/elipse.png" alt="First Social Media">
-                                <div class="f-flex flex-column">
-                                    <h2>Social Media Name</h2>
-                                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, tenetur!</p>
+                        <div class="col-md-4 content-redes">
+                            <div class="row box-redes">
+
+                                <div class="col-md-2 col-2 img-contacto">
+                                    <img src="../assets/twitterBlue.png" alt="First Social Media">
                                 </div>
+
+                                <div class="f-flex flex-column col-md-10 col-10 texto-contacto">
+                                    <h4>For Twitter's News</h2>
+                                    <p class="subtitle">Join the <a target="_blank" href="https://twitter.com">Twitter community</a></p>
+                                </div>
+
                             </div>
                         </div>
 
                     </div>
 
 
-                    <div class="d-flex justify-content-center flex-row">
+                    <div class="row row-join">
 
-                        <div class="col-md-6">
+                        <div class="col-md-5 col-sm-5">
                             <div class="d-flex flex-row justify-content-center text-center">
-                                <div class="f-flex flex-column">
-                                    <h2>Social Media Name</h2>
-                                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, tenetur!</p>
+                                <div class="f-flex flex-column texto-join">
+                                    <h4>Stay informed of updates and events</h4>
+                                    <p class="subtitle">Subscribe to the newsletter or read the blog</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="join-division col-md-2 col-sm-2"></div>
+
+                        <div class="col-md-5 col-sm-5">
                             <div class="d-flex flex-row justify-content-center text-center">
-                                <div class="f-flex flex-column">
-                                    <h2>Social Media Name</h2>
-                                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, tenetur!</p>
+                                <div class="f-flex flex-column texto-join text-join__sec">
+                                    <h4>Join the teams building Bygrow</h4>
+                                    <p class="subtitle">See jobs at Web3 Foundation or at Parity Technologies</p>
                                 </div>
                             </div>
                         </div>
@@ -182,40 +194,33 @@
 
             <div class="container text-center">
 
-                <h2 class="title">Contact Us</h2>
-                <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, itaque!</p>
+                <h2 class="title">Contact Form</h2>
 
                 <div class="container">
 
                     <form>
 
-                        <div class="mb-3">
-                          <label class="form-label">First Name</label>
+                        <div class="mb-3 texto-formulario">
+                          <label class="form-label">First Name*</label>
                           <input type="name" class="form-control">
                         </div>
-                        <div class="mb-3">
-                          <label class="form-label">Last Name</label>
+
+                        <div class="mb-3 texto-formulario">
+                          <label class="form-label">Last Name*</label>
                           <input type="name" class="form-control">
                         </div>
-                        <div class="mb-3">
-                          <label class="form-label">Email</label>
+
+                        <div class="mb-3 texto-formulario">
+                          <label class="form-label">Email*</label>
                           <input type="email" class="form-control">
                         </div>
-                        <div class="mb-3 form-check">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Marital Status</option>
-                                <option value="1">Single</option>
-                                <option value="2">Married</option>
-                                <option value="3">Divorced</option>
-                                <option value="4">Widower</option>
-                              </select>
+
+                        <div class="mb-5 texto-formulario">
+                            <label>Press inquiry*</label>
+                            <textarea class="form-control formulario-textarea"></textarea>
                         </div>
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Leave us your comment</label>
-                          </div>
-                        <button type="reset" class="btn btn-primary">Clean form</button>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                        <button type="submit" class="boton-sec">Submit</button>
 
                       </form>
 
@@ -230,12 +235,12 @@
         
 
         <!-- Sección Unirse -->
-        <section class="unirse" style="background-color: rgb(144, 144, 144);">
+        <section class="unirse unirse-contact">
 
             <div class="container text-center">
 
-                <h2 class="subtitle">Want to get involved?</h2>
-                <a href="howItWorks.html" class="btn btn-outline-primary">Learn About Bygrow Team</a>
+                <h2 class="title">Want to get involved?</h2>
+                <a href="howItWorks.html" class="boton-cua">Learn About Bygrow Team</a>
                 <p class="subtitle">or learn about how to <a href="#">build on Bygrow</a></p>
 
             </div>
@@ -243,12 +248,13 @@
         </section>
         <!--------->
 
+
         <!-- Footer -->
-        <footer style="background-color:rgb(152, 152, 152);">
+        <footer class="footer footer-contact">
 
             <div class="container">
 
-                <div class="footer-referencias d-flex d-column justify-content-evenly">
+                <div class="footer-referencias d-flex flex-column align-items-center">
 
                     <!-- Cada una de las columnas de referencias -->
                     <div class="seccion-referencias col-md-2">
@@ -289,40 +295,37 @@
                             <!-- Las referencias están de ejemplo unicamente -->
                             <li style="list-style: none;"><a href="#">Community</a></li>
                             <li style="list-style: none;"><a href="#">Documentation</a></li>
-                            <li style="list-style: none;"><a href="#">Brand ../assets</a></li>
+                            <li style="list-style: none;"><a href="#">Brand Assets</a></li>
                             <li style="list-style: none;"><a href="#">Blog</a></li>
                         </ul>
                         
                     </div>
 
                     <!-- Cada una de las columnas de referencias -->
-                    <div class="seccion-referencias col-md-2">
+                    <div class="seccion-referencias seccion-referencias__media col-md-2 d-flex flex-column align-items-center">
                         
                         <!-- Enlaces a redes sociales -->
-                        <div class="social-media d-flex justify-content-between">
+                        <div class="social-media d-flex flex-row justify-content-between">
 
                             <!-- Envía a cada red social -->
-                            <a href="#"><img src="../assets/elipse-2.png" width="40" alt="Social Media"></a>
-                            <a href="#"><img src="../assets/elipse-2.png" width="40" alt="Social Media"></a>
-                            <a href="#"><img src="../assets/elipse-2.png" width="40" alt="Social Media"></a>
-                            <a href="#"><img src="../assets/elipse-2.png" width="40" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.github.com/"><img class="footer-social__media" src="../assets/githubMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.discord.com/"><img class="footer-social__media" src="../assets/discordMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.youtube.com/"><img  class="footer-social__media" src="../assets/youtubeMedia.png" alt="Social Media"></a>
+                            <a target="_blank" href="https://www.twitter.com/"><img  class="footer-social__media" src="../assets/twitterMedia.png" alt="Social Media"></a>
                         </div>
                         
-                        <p class="subtitle">Subscribe to the newsletter to hear about <br>
+                        <p class="subtitle">Subscribe to the newsletter to hear about
                             Bygrow updates and events.
                         </p>
 
-                        <a href="howItWorks.html" class="btn btn-outline-primary">Subscribe</a>
+                        <a href="howItWorks.html" class="boton-cin">Subscribe</a>
 
                     </div>
 
                 </div>
 
                 <!-- Bases y condiciones de la empresa -->
-                <div class="d-flex justify-content-left align-items-end">
-
-                    <!-- Referencia a página principal -->
-                    <a href="index.html"> <img src="../assets/logo.png" alt="Bygrow logo"> </a>
+                <div class="d-flex flex-column justify-content-center align-items-center footer-bases">
                     
                     <!-- Referencias a información de la empresa -->
                     <a href="#">Web3 Fundation</a>
@@ -339,6 +342,9 @@
                     |
                     <a href="#">Cookie Settings</a>
 
+                    <!-- Referencia a página principal -->
+                    <a href="index.html"> <img src="../assets/logo.png" alt="Bygrow logo"> </a>
+
                 </div>
 
             </div>
@@ -347,4 +353,5 @@
         <!--------->
 
     </body>
+    
 </html>
