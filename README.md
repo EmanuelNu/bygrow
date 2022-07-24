@@ -7,5 +7,8 @@ El mismo está basado en una Criptomoneda, con su respectiva tecnología, todo d
 
 Espero que te guste la idea tanto como a mi me gustó diseñarla!
 
+Pueden visualizar la página subida como prueba en este hosting llamado: *000webhost* 
+https://proyecttestone.000webhostapp.com/
+
 Atte,
 Emanuel Nuñez, Software Developer
